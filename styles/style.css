@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  background-color: rgba(139, 139, 139, 0.689);
+}
+main {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/* HEADER - /NAV/ */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1440px;
+  height: 103px;
+  margin: 0 auto;
+  /*  !!!   */
+
+  background-color: #303030;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-transform: uppercase;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+nav ul li a {
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.search-icon i,
+.logo {
+  color: white;
+  cursor: pointer;
+  padding: 0 80px;
+}
+
+/* HERO */
+.hero-container {
+  background-image: url(../images/hero.png);
+  margin: 0px auto;
+  height: 800px;
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.hero-content {
+  width: 50%;
+  padding: 80px 80px;
+}
+.hero-content > h1 {
+  font-size: 125px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  margin-bottom: 42px;
+}
+.hero-content > p {
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 42px;
+}
+.hero-content > button {
+  border-radius: 4px;
+  background-color: #e8631c;
+  color: white;
+  padding: 11px 80px;
+
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+
+  cursor: pointer;
+}
+
+/* DANCE TOUR */
+.dance-tour {
+  height: 800px;
+  background-color: #e8631c;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.dance-tour > h1 {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+}
+.dance-tour > p {
+  width: 65%;
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 28px;
+  text-align: center;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.cards-wrapper div {
+  height: 493px;
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+}
+.cards-wrapper div h1 {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.cards-wrapper div p {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* PRICING */
+.pricing {
+  height: 800px;
+  background-color: #303030;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.pricing > h1 {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+}
+.pricing > p {
+  width: 65%;
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 28px;
+  text-align: center;
+}
+.pricing-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.pricing-wrapper div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 372px;
+  height: 493px;
+  border-radius: 8px;
+  background-color: #e8631c;
+}
+.pricing-wrapper div img {
+  width: 110px;
+  height: 130px;
+  align-self: center;
+  padding-top: 50px;
+}
+.pricing-wrapper div h1 {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.pricing-wrapper div p {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.pricing-wrapper div button {
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  align-self: center;
+  background-color: #303030;
+  margin-bottom: 12px;
+
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  cursor: pointer;
+}
+
+/* AMAZING DANCE / BEST DANCE */
+.dance-wrapper {
+  height: 1978px;
+  background-color: #e8631c;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0;
+  margin: 0;
+}
+.img-div > img {
+  width: 100%;
+  height: 100%;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 70px;
+}
+.text-content h1 {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+.text-content p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.text-content button {
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  cursor: pointer;
+}
+/* OUR STATISTICS */
+.statistics-wrapper {
+  background-color: #303030;
+  height: 800px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.statistics-wrapper > h1 {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding-bottom: 60px;
+}
+.statistics-wrapper > p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-bottom: 180px;
+  width: 60%;
+  align-self: center;
+}
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 75px;
+}
+.stats div > h1 {
+  font-size: 67px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding-bottom: 20px;
+}
+.stats div > p {
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* HUBERT SIMON */
+.user-wrapper {
+  position: relative;
+  height: 965px;
+  background-image: url(../images/about-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.user-container {
+  position: relative; /* Changed from absolute to relative */
+  height: 100%;
+  width: 100%;
+}
+.user-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(232, 99, 28, 1);
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+.user-container div {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-container div > p,
+.user-container div > h1 {
+  align-self: center;
+  width: 65%;
+  color: #ffffff;
+  text-align: center;
+}
+.user-container div > p {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: "Nunito";
+  padding-bottom: 80px;
+}
+.user-container div > h1 {
+  font-size: 58px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+
+/* SUBSCRIBE */
+.subscribe {
+  height: 590px;
+  background-color: #e8631c;
+  display: flex;
+  flex-direction: column;
+}
+.subscribe h1 {
+  padding-top: 130px;
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+}
+.subscribe p {
+  padding-top: 60px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 65%;
+  align-self: center;
+}
+.subscribe div {
+  align-self: center;
+  display: flex;
+  padding-top: 60px;
+}
+.input-text {
+  border: 0px;
+  padding: 0 150px 0 30px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.input-button {
+  cursor: pointer;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60px;
+  border: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #303030;
+
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Oswald";
+  text-align: center;
+}
+.subscribe input {
+  text-align: left;
+}
+
+/* FOOTER */
+.footer {
+  width: 1440px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #303030;
+  color: #ffffff;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+.footer h2 {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+}
+.footer img {
+  cursor: pointer;
+}
+.musicology {
+  width: 30%;
+  padding-left: 50px;
+}
+.musicology > p {
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: initial;
+  font-family: "Montserrat";
+  padding-bottom: 43px;
+}
+.musicology img {
+  padding-right: 10px;
+}
+.musicology h2 {
+  padding-bottom: 40px;
+}
+.about h2,
+.services h2,
+.other h2 {
+  padding-bottom: 28.5px;
+}
+.about p,
+.services p,
+.other p {
+  font-size: 23px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+.other {
+  padding-right: 53px;
+}
